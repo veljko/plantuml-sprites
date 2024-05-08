@@ -1,0 +1,10 @@
+!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!includeurl DevopsSprites/caddy_server.puml
+
+!definelong CaddyServer(e_alias, e_label)
+skinparam rectangleTextAlignment<<CaddyServer>> center
+skinparam componentTextAlignment<<CaddyServer>> center
+skinparam componentDefaultTextAlignment<<CaddyServer>> center
+skinparam defaultTextAlignment<<CaddyServer>> center
+node "==e_label\n<$devops_caddy_server>\n" <<CaddyServer>> as e_alias
+!enddefinelong
