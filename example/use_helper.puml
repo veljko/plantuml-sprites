@@ -1,8 +1,8 @@
 @startuml test
-!define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
+!define Devops https://raw.githubusercontent.com/veljko/plantuml-sprites/main/components
 !includeurl Devops/common.puml
 
-!define DevopsSprites https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/sprites
+!define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites
 !includeurl DevopsSprites/developer_happy.puml
 !includeurl DevopsSprites/caddy_server.puml
 !includeurl DevopsSprites/docker_logo.puml
