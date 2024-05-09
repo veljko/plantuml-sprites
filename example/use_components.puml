@@ -1,10 +1,14 @@
 @startuml test
 
-!define Devops https://raw.githubusercontent.com/veljko/plantuml-sprites/main/components
-!includeurl Devops/common.puml
-!includeurl Devops/docker.puml
-!includeurl Devops/caddy.puml
-!includeurl Devops/dev.puml
+!define Custom https://raw.githubusercontent.com/veljko/plantuml-sprites/main/components
+!includeurl Custom/common.puml
+!includeurl Custom/docker.puml
+!includeurl Custom/caddy.puml
+!includeurl Custom/dev.puml
+!includeurl Custom/d365.puml
+
+header SayTest
+footer Page %page% of %lastpage%
 
 DockerContainer(portainer, "Portainer")
 CaddyServer(caddy, "Reverse Proxy")
@@ -19,5 +23,26 @@ caddy -[#green]-> app1
 caddy --> app2
 
 dev -> caddy: example.com
+
+AIBuilder(aibuilder, "Dynamics 365 App")
+Dataverse(dataverse, "Dataverse")
+PowerAutomate(powerautomate, "Power Automate")
+PowerApps(powerapps, "Power Apps")
+PowerBI(powerbi, "Power BI")
+PowerFx(powerfx, "Power Fx")
+PowerPages(powerpages, "Power Pages")
+PowerPlatform(powerplatform, "Power Platform")
+PowerVirtualAgents(powervirtualagents, "Power Virtual Agents")
+
+powerplatform --> aibuilder
+powerplatform --> powervirtualagents
+powerplatform --> powerapps
+powerplatform --> powerbi
+
+powerapps --> dataverse
+powerapps --> powerautomate
+powerapps --> powerfx
+powerapps --> powerpages
+
 
 @enduml
