@@ -17,7 +17,7 @@ skinparam componentBorderColor<<AIBuilder>> transparent
 skinparam backgroundColor<<AIBuilder>> transparent
 skinparam defaultTextAlignment<<AIBuilder>> center
 hide <<AIBuilder>> stereotype
-rectangle "==e_label\n<$d365_AIBuilder></color>\n" <<AIBuilder>> as e_alias
+rectangle "==e_label\n<$d365_AIBuilder>\n" <<AIBuilder>> as e_alias
 !enddefinelong
 
 !definelong Dataverse(e_alias, e_label)
@@ -28,7 +28,7 @@ skinparam componentBorderColor<<Dataverse>> transparent
 skinparam backgroundColor<<Dataverse>> transparent
 skinparam defaultTextAlignment<<Dataverse>> center
 hide <<Dataverse>> stereotype
-rectangle "==e_label\n<$d365_Dataverse></color>\n" <<Dataverse>> as e_alias
+rectangle "==e_label\n<$d365_Dataverse>\n" <<Dataverse>> as e_alias
 !enddefinelong
 
 !definelong PowerApps(e_alias, e_label)
@@ -39,7 +39,7 @@ skinparam componentBorderColor<<PowerApps>> transparent
 skinparam backgroundColor<<PowerApps>> transparent
 skinparam defaultTextAlignment<<PowerApps>> center
 hide <<PowerApps>> stereotype
-rectangle "==e_label\n<$d365_PowerApps></color>\n" <<PowerApps>> as e_alias
+rectangle "==e_label\n<$d365_PowerApps>\n" <<PowerApps>> as e_alias
 !enddefinelong
 
 !definelong PowerAutomate(e_alias, e_label)
@@ -50,7 +50,7 @@ skinparam componentBorderColor<<PowerAutomate>> transparent
 skinparam backgroundColor<<PowerAutomate>> transparent
 skinparam defaultTextAlignment<<PowerAutomate>> center
 hide <<PowerAutomate>> stereotype
-rectangle "==e_label\n<$d365_PowerAutomate></color>\n" <<PowerAutomate>> as e_alias
+rectangle "==e_label\n<$d365_PowerAutomate>\n" <<PowerAutomate>> as e_alias
 !enddefinelong
 
 !definelong PowerBI(e_alias, e_label)
@@ -61,7 +61,7 @@ skinparam componentBorderColor<<PowerBI>> transparent
 skinparam backgroundColor<<PowerBI>> transparent
 skinparam defaultTextAlignment<<PowerBI>> center
 hide <<PowerBI>> stereotype
-rectangle "==e_label\n<$d365_PowerBI></color>\n" <<PowerBI>> as e_alias
+rectangle "==e_label\n<$d365_PowerBI>\n" <<PowerBI>> as e_alias
 !enddefinelong
 
 !definelong PowerFx(e_alias, e_label)
@@ -72,7 +72,7 @@ skinparam componentBorderColor<<PowerFx>> transparent
 skinparam backgroundColor<<PowerFx>> transparent
 skinparam defaultTextAlignment<<PowerFx>> center
 hide <<PowerFx>> stereotype
-rectangle "==e_label\n<$d365_PowerFx></color>\n" <<PowerFx>> as e_alias
+rectangle "==e_label\n<$d365_PowerFx>\n" <<PowerFx>> as e_alias
 !enddefinelong
 
 !definelong PowerPages(e_alias, e_label)
@@ -83,7 +83,7 @@ skinparam componentBorderColor<<PowerPages>> transparent
 skinparam backgroundColor<<PowerPages>> transparent
 skinparam defaultTextAlignment<<PowerPages>> center
 hide <<PowerPages>> stereotype
-rectangle "==e_label\n<$d365_PowerPages></color>\n" <<PowerPages>> as e_alias
+rectangle "==e_label\n<$d365_PowerPages>\n" <<PowerPages>> as e_alias
 !enddefinelong
 
 !definelong PowerPlatform(e_alias, e_label)
@@ -94,7 +94,7 @@ skinparam componentBorderColor<<PowerPlatform>> transparent
 skinparam backgroundColor<<PowerPlatform>> transparent
 skinparam defaultTextAlignment<<PowerPlatform>> center
 hide <<PowerPlatform>> stereotype
-rectangle "==e_label\n<$d365_PowerPlatform></color>\n" <<PowerPlatform>> as e_alias
+rectangle "==e_label\n<$d365_PowerPlatform>\n" <<PowerPlatform>> as e_alias
 !enddefinelong
 
 !definelong PowerVirtualAgents(e_alias, e_label)
@@ -105,5 +105,5 @@ skinparam componentBorderColor<<PowerVirtualAgents>> transparent
 skinparam backgroundColor<<PowerVirtualAgents>> transparent
 skinparam defaultTextAlignment<<PowerVirtualAgents>> center
 hide <<PowerVirtualAgents>> stereotype
-rectangle "==e_label\n<$d365_PowerVirtualAgents></color>\n" <<PowerVirtualAgents>> as e_alias
+rectangle "==e_label\n<$d365_PowerVirtualAgents>\n" <<PowerVirtualAgents>> as e_alias
 !enddefinelong
