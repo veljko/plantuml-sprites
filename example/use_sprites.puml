@@ -1,6 +1,6 @@
 @startuml test
 !define Sprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites
-!includeurl Sprites/docker_logo.puml
+!include Sprites/docker_logo.puml
 
 actor alice
 node "<$devops_docker_logo,color=blue>" as docker

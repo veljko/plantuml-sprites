@@ -1,14 +1,11 @@
 @startuml test
 
 !define Custom https://raw.githubusercontent.com/veljko/plantuml-sprites/main/components
-!includeurl Custom/common.puml
-!includeurl Custom/docker.puml
-!includeurl Custom/caddy.puml
-!includeurl Custom/dev.puml
-!includeurl Custom/d365.puml
-
-header SayTest
-footer Page %page% of %lastpage%
+!include Custom/common.puml
+!include Custom/docker.puml
+!include Custom/caddy.puml
+!include Custom/dev.puml
+!include Custom/d365.puml
 
 DockerContainer(portainer, "Portainer")
 CaddyServer(caddy, "Reverse Proxy")

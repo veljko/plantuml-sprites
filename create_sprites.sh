@@ -51,7 +51,7 @@ options:
         dir="./"  # Directory path to process     Default: ./
       width=48    # Width  of PNG to generate     Default: 48
      height=48    # Height of PNG to generate     Default: 48
-  graylevel=16    # Number of grayscale colors    Default: 16
+  graylevel=16z   # Number of grayscale colors    Default: 16
  processsvg=0     # 1 if SVGs should be processed Default: 0
 
      prefix=""    # Prefix for sprites names, avoids having

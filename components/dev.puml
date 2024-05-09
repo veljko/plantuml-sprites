@@ -1,6 +1,6 @@
 !define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/devops
-!includeurl DevopsSprites/developer_happy.puml
-!includeurl DevopsSprites/developer_evil.puml
+!include DevopsSprites/developer_happy.puml
+!include DevopsSprites/developer_evil.puml
 
 !definelong HappyDeveloper(e_alias, e_label)
 skinparam rectangleTextAlignment<<HappyDeveloper>> center

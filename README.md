@@ -3,10 +3,10 @@
 ```plantuml
 @startuml test
 !define Devops https://raw.githubusercontent.com/xNok/devops-plantuml-sprites/main/components
-!includeurl Devops/common.puml
-!includeurl Devops/docker.puml
-!includeurl Devops/caddy.puml
-!includeurl Devops/dev.puml
+!include Devops/common.puml
+!include Devops/docker.puml
+!include Devops/caddy.puml
+!include Devops/dev.puml
 
 DockerContainer(portainer, "Portainer")
 CaddyServer(caddy, "Reverse Proxy")

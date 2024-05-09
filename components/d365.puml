@@ -1,13 +1,13 @@
 !define D365Sprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/d365
-!includeurl D365Sprites/AIBuilder.puml
-!includeurl D365Sprites/Dataverse.puml
-!includeurl D365Sprites/PowerApps.puml
-!includeurl D365Sprites/PowerAutomate.puml
-!includeurl D365Sprites/PowerBI.puml
-!includeurl D365Sprites/PowerFx.puml
-!includeurl D365Sprites/PowerPages.puml
-!includeurl D365Sprites/PowerPlatform.puml
-!includeurl D365Sprites/PowerVirtualAgents.puml
+!include D365Sprites/AIBuilder.puml
+!include D365Sprites/Dataverse.puml
+!include D365Sprites/PowerApps.puml
+!include D365Sprites/PowerAutomate.puml
+!include D365Sprites/PowerBI.puml
+!include D365Sprites/PowerFx.puml
+!include D365Sprites/PowerPages.puml
+!include D365Sprites/PowerPlatform.puml
+!include D365Sprites/PowerVirtualAgents.puml
 
 !definelong AIBuilder(e_alias, e_label)
 skinparam rectangleTextAlignment<<AIBuilder>> center

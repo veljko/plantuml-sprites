@@ -1,5 +1,5 @@
 !define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/devops
-!includeurl DevopsSprites/docker_logo.puml
+!include DevopsSprites/docker_logo.puml
 
 !definelong DockerContainer(e_alias, e_label)
 skinparam rectangleTextAlignment<<DockerContainer>> center
