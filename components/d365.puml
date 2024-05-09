@@ -1,0 +1,109 @@
+!define D365Sprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/d365
+!includeurl D365Sprites/AIBuilder.puml
+!includeurl D365Sprites/Dataverse.puml
+!includeurl D365Sprites/PowerApps.puml
+!includeurl D365Sprites/PowerAutomate.puml
+!includeurl D365Sprites/PowerBI.puml
+!includeurl D365Sprites/PowerFx.puml
+!includeurl D365Sprites/PowerPages.puml
+!includeurl D365Sprites/PowerPlatform.puml
+!includeurl D365Sprites/PowerVirtualAgents.puml
+
+!definelong AIBuilder(e_alias, e_label)
+skinparam rectangleTextAlignment<<AIBuilder>> center
+skinparam componentTextAlignment<<AIBuilder>> center
+skinparam componentDefaultTextAlignment<<AIBuilder>> center
+skinparam componentBorderColor<<AIBuilder>> transparent
+skinparam backgroundColor<<AIBuilder>> transparent
+skinparam defaultTextAlignment<<AIBuilder>> center
+hide <<AIBuilder>> stereotype
+rectangle "==e_label\n<$d365_AIBuilder></color>\n" <<AIBuilder>> as e_alias
+!enddefinelong
+
+!definelong Dataverse(e_alias, e_label)
+skinparam rectangleTextAlignment<<Dataverse>> center
+skinparam componentTextAlignment<<Dataverse>> center
+skinparam componentDefaultTextAlignment<<Dataverse>> center
+skinparam componentBorderColor<<Dataverse>> transparent
+skinparam backgroundColor<<Dataverse>> transparent
+skinparam defaultTextAlignment<<Dataverse>> center
+hide <<Dataverse>> stereotype
+rectangle "==e_label\n<$d365_Dataverse></color>\n" <<Dataverse>> as e_alias
+!enddefinelong
+
+!definelong PowerApps(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerApps>> center
+skinparam componentTextAlignment<<PowerApps>> center
+skinparam componentDefaultTextAlignment<<PowerApps>> center
+skinparam componentBorderColor<<PowerApps>> transparent
+skinparam backgroundColor<<PowerApps>> transparent
+skinparam defaultTextAlignment<<PowerApps>> center
+hide <<PowerApps>> stereotype
+rectangle "==e_label\n<$d365_PowerApps></color>\n" <<PowerApps>> as e_alias
+!enddefinelong
+
+!definelong PowerAutomate(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerAutomate>> center
+skinparam componentTextAlignment<<PowerAutomate>> center
+skinparam componentDefaultTextAlignment<<PowerAutomate>> center
+skinparam componentBorderColor<<PowerAutomate>> transparent
+skinparam backgroundColor<<PowerAutomate>> transparent
+skinparam defaultTextAlignment<<PowerAutomate>> center
+hide <<PowerAutomate>> stereotype
+rectangle "==e_label\n<$d365_PowerAutomate></color>\n" <<PowerAutomate>> as e_alias
+!enddefinelong
+
+!definelong PowerBI(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerBI>> center
+skinparam componentTextAlignment<<PowerBI>> center
+skinparam componentDefaultTextAlignment<<PowerBI>> center
+skinparam componentBorderColor<<PowerBI>> transparent
+skinparam backgroundColor<<PowerBI>> transparent
+skinparam defaultTextAlignment<<PowerBI>> center
+hide <<PowerBI>> stereotype
+rectangle "==e_label\n<$d365_PowerBI></color>\n" <<PowerBI>> as e_alias
+!enddefinelong
+
+!definelong PowerFx(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerFx>> center
+skinparam componentTextAlignment<<PowerFx>> center
+skinparam componentDefaultTextAlignment<<PowerFx>> center
+skinparam componentBorderColor<<PowerFx>> transparent
+skinparam backgroundColor<<PowerFx>> transparent
+skinparam defaultTextAlignment<<PowerFx>> center
+hide <<PowerFx>> stereotype
+rectangle "==e_label\n<$d365_PowerFx></color>\n" <<PowerFx>> as e_alias
+!enddefinelong
+
+!definelong PowerPages(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerPages>> center
+skinparam componentTextAlignment<<PowerPages>> center
+skinparam componentDefaultTextAlignment<<PowerPages>> center
+skinparam componentBorderColor<<PowerPages>> transparent
+skinparam backgroundColor<<PowerPages>> transparent
+skinparam defaultTextAlignment<<PowerPages>> center
+hide <<PowerPages>> stereotype
+rectangle "==e_label\n<$d365_PowerPages></color>\n" <<PowerPages>> as e_alias
+!enddefinelong
+
+!definelong PowerPlatform(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerPlatform>> center
+skinparam componentTextAlignment<<PowerPlatform>> center
+skinparam componentDefaultTextAlignment<<PowerPlatform>> center
+skinparam componentBorderColor<<PowerPlatform>> transparent
+skinparam backgroundColor<<PowerPlatform>> transparent
+skinparam defaultTextAlignment<<PowerPlatform>> center
+hide <<PowerPlatform>> stereotype
+rectangle "==e_label\n<$d365_PowerPlatform></color>\n" <<PowerPlatform>> as e_alias
+!enddefinelong
+
+!definelong PowerVirtualAgents(e_alias, e_label)
+skinparam rectangleTextAlignment<<PowerVirtualAgents>> center
+skinparam componentTextAlignment<<PowerVirtualAgents>> center
+skinparam componentDefaultTextAlignment<<PowerVirtualAgents>> center
+skinparam componentBorderColor<<PowerVirtualAgents>> transparent
+skinparam backgroundColor<<PowerVirtualAgents>> transparent
+skinparam defaultTextAlignment<<PowerVirtualAgents>> center
+hide <<PowerVirtualAgents>> stereotype
+rectangle "==e_label\n<$d365_PowerVirtualAgents></color>\n" <<PowerVirtualAgents>> as e_alias
+!enddefinelong

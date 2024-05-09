@@ -1,4 +1,4 @@
-!define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites
+!define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/devops
 !includeurl DevopsSprites/caddy_server.puml
 
 !definelong CaddyServer(e_alias, e_label)

@@ -1,4 +1,4 @@
-!define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites
+!define DevopsSprites https://raw.githubusercontent.com/veljko/plantuml-sprites/main/sprites/devops
 !includeurl DevopsSprites/developer_happy.puml
 !includeurl DevopsSprites/developer_evil.puml
 
