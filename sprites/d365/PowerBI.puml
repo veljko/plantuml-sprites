@@ -1,14 +1,12 @@
 sprite $d365_PowerBI [256x256/16z] {
-xTO7Ojim34PXWKlTlVzfEvo_kuvfcRG4uRtiU7w4rkTZjBnaAULIwkELafEPddL_Nhy_bo7-Md9EhlpYP_77B80RlvccB_seNM1PpCp9yB_pwyX-EmPuyAS9
-_kJ8B_x0IlRapsMulpZoQ_n3Azc97x-Dz-EldlnbXZ_vyL_ZuyUF7pz-_FZnuyUF7pz-_FZnuyUF7pz-_FZnuyUF7t-BwMV--F7ZRosqlqNsuszH_R87zQkm
-_gP2-l6tg7xHtVlR7w8NrcP_S-TlDxf0E-nE_Urc5-iLVWn_TU5Vxap-lZheU_dnY_D-W_-_1xTN_UsmVcNzvL9wJsuTzFtzfb9dEPSh_QjruE-NYt-j_oz0
-ExHVVCaUIYlG0JwIN_eyA2t0qVtIYvy7vijlPkAFt03y-CKVl03t7__QNluqrTzVBVxzgjJgnp-KZny_VlpDWHy_VlpuEr7uyUF7Zny_VlpuyUF7Zny_Vlpu
-yUF7Zxz4z-F7lyRpuyUF7pz-_6jeFtxyQqm__YB_-YG_VlpuyUDVDZJHlphmMpg5N_GSrwys-DDW_jv-kwjqBQT-6y1Nc-mx-qsi8TtDLrlzzh1Vzb6vy0il
-VXhQVVHT_U8FpeaVl_Z3wwJ7y-CN_K3-z5n_YUd7BteqFtxyedVvrpFvyOiUrr-Y-ajqlvhdnz-EwiTVjldnhoVmuo-n_FZnuyUF7p_-JVmT_FZnfuFvyQ_u
-huSVFtxy-DVrNFvs6d_Ux5VuE_Wn_VXNyGFw1TSz0yzVzpkNV_tPpT57y-DNJlnbf5zg_OpgRr7zw-_kM7x98_a5-otnm_alQj6Z-bjSl-Xn_QA7zRV0Viq-
-hb_XnuyVFtxy-F7Zn_zx_ltuyUF7N_tvyUF7Zny_VlpuyUF7ZpzlyDTeVlpuyUF7Znz_ZUcNFQoV-TTB0Vt2gt1-5TOlyr_-Dn7ywXX-sy4lV4Y_x2VtbzSB
-wnSzeb_ug7vrEF_o9B-C4Vqgh5_uMVxbq7xP9_bRFRPVJVHdUzHl4_nITzFblxjQ1lXjDFytVvtgRpMdxNxbrA-ztpRufru2oI_wBB_usIw9Cs0NyEDlxP6T
-Nturmryd-iLFDiY_cBdprw9Ztmt_Lm
+xTH7WkWm20HHXmRc_XV-EKV6OMIxgtPQFaamNQrvbM9lqZBTibbnLEiD-KiSsNn3llC5p75qz_BhSF_g-Vk_v_ty4SkD_752ilRZ3_mt2Jz-_FZnuyUF7pz-
+_FZnuyUF7pz-_FZnuyUF7pz-_FZnuyUF7pz-_FZnuyUF7pz-_6djptJsPzxOdr_wUjYWlvi__zq6_QFycH7PrT_Itwc5Vx0_6_f7-xEh7--Vby-jkz9lghu-
+SwI-mUyL7N_cfVmDVJ_zrvzvBNz3l_a26lhH_eP--mMqzEFzww7ze6pW1_iR-XqVeA4VxL-FxxkfeH_hdzSJ-gxzhZVsPvhvzQC_qzcVQUrFJt_Tnh_WFohy
+-F7Znn-6VlpuyUF7Znz_FS-F7pz-_FZnuyUF7pz-_FZnuyUF7pz-_FZnuozFFtxy-F7ZhpVsuyUF7p_--LFBpdRxQuX_RkYRtT7_NJ_k1gHX_Xw-toRzEFzN
+_JY_DD3VnlVReBVrIuFzombjq8_opmFzahDVSlPBr_0lG_oIirzozalMVbdx9MU_vEoNdFrIor_rIB_ax9US_PApNtBsIw_srtFyahDVSlPBpdx9sVzQFdxy
+-F7Znu-_y7yDFtxy-F7ZnuyVFtxy-F7Znu-_ojbVvUolSlPN6VkhojXVzKp_IyjVvUolSlPNEVkhdFrLplugOtzL6VkhdFrLplugPt-Lapz_yLSv-wkS_LNE
+_ggB-l7ZnuyVFtxy-F7ZnuyVFtxy-F7Znu__hqRy-F7ZnuyVFtxy-F7Znn_Xx8_uw7ynzKSu-oES_H7E_WXdVuIpFyBP7-7iZt3sHpZx8vpz4OVwyrx-Y8Fz
+iTS_lwK_3lUlqnK_G5U_tpzFL_m0JVr-lwRzlOa_uWn_JaTqlZ_Y7Fyy7TB9_kYLh-LdWpzc1pJq-zzV3TYW6sZezxr_nZhtOEy1
 }
 
 !define D365_POWERBI(_color)                                 SPRITE_PUT(                                d365_PowerBI, _color)

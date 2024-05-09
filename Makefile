@@ -6,8 +6,8 @@ build: clean prepare
 	./create_sprites.sh -p ./sprites/d365 d365
 
 prepare:
-	mogrify -resize 256x256 -transparent white ./sprites/devops/*.png
-	mogrify -resize 256x256 -transparent white ./sprites/d365/*.png
+	mogrify -resize 256x256 -background white -alpha remove -alpha off ./sprites/devops/*.png
+	mogrify -resize 256x256 -background white -alpha remove -alpha off ./sprites/d365/*.png
 
 clean:
 	find ./sprites/devops -name "*.puml" -type f -delete
