@@ -1,0 +1,16 @@
+sprite $d365_Dynamics365 [96x96/16z] {
+nTc7bfim48LXLAVu_TytfZX7DoXuXIx9VyhsRuo6xGiKSWhBSsLpj_hOYEolDRSI7_7rzSdrWH71NaqkEP1zVs468pW-1jlc-xWAleyZ-3vk-p7V7LP1zlq8
+Hh1yns0LyxxtkZqYs0KEcUGmv_kNO1N3llyehUcExmDfYME-ZsQIuu_zOHwtpVTnstmVjqttCPFqnVV9hD1zpCgShpbNknoGPdnRR_LOvE8T9SpunmV7eXSN
+CEklXQpUhnByjL3zb9cvKFmr761kQww1vGV1XyxsbsI07_v2yvTwd4lh2z7FAuwyLQ8VqOUl40m_gAFk9k1ZCk7xdfOBFzcm3xYxrYj_IMA3lhUwIItWduj5
+BqReoMzcczHtu5-C6FHDfUw1to-agXtTEZxWu5yNSZNKpJg-kHleu7yR8TRWNLzD1VG1l_bMQ7q_9DcxuUEsUr-xOYvLFWtxkErjX5jkNbbAdVHns-_ARpoN
+DrGQNsRymupxCt75joW-Tk1bg_K5_DjugP0qJVeXbTMW-eZBjI-t_PXNYEuZ_jsN6tui8B3zY03TBphYox1VmLUwBmgTVLKSmFVrQL-Lvkk_zbLF0vxmzI5V
+zDCzF_ndNq--C7rHxLm0pzSslgyzNmh95rMCwekezWVa8T-wFk3erpZYgoaInqEtl_fb6VCntV2cF_qQ9toeFo0lN1y704_mSG0S3i772LBI0l5yKwqvB13H
+L_WN0DjNE1Uoh_1tVxOl6N2k3__QeVfuBdmVRaQw3pSZrtSuT8hl3Gw7padmdsZqaXqud0knf72dymifJftBBm
+}
+
+!define D365_DYNAMICS365(_color)                                 SPRITE_PUT(                                    d365_Dynamics365, _color)
+!define D365_DYNAMICS365(_color, _scale)                         SPRITE_PUT(                                    d365_Dynamics365, _color, _scale)
+!define D365_DYNAMICS365(_color, _scale, _alias)                 SPRITE_ENT(  _alias, D365 DYNAMICS365,         d365_Dynamics365, _color, _scale)
+!define D365_DYNAMICS365(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, D365 DYNAMICS365,         d365_Dynamics365, _color, _scale, _shape)
+!define D365_DYNAMICS365(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, D365 DYNAMICS365, _label, d365_Dynamics365, _color, _scale, _shape)
+skinparam folderBackgroundColor<<D365 DYNAMICS365>> White
